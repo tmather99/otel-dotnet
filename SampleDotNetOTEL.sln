@@ -1,24 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDotNetOTEL.ProxyService", "SampleDotNetOTEL.ProxyService\SampleDotNetOTEL.ProxyService.csproj", "{A75B4622-09CB-45A8-9242-25693B454878}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleDotNetOTEL.ProxyService", "SampleDotNetOTEL.ProxyService\SampleDotNetOTEL.ProxyService.csproj", "{A75B4622-09CB-45A8-9242-25693B454878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDotNetOTEL.BusinessService", "SampleDotNetOTEL.BusinessService\SampleDotNetOTEL.BusinessService.csproj", "{9D696FF2-BA89-4B1A-9AF0-C96DC8E2C3DE}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{2970DE25-3590-4F6D-9827-BD1FBE0C93E1}"
-	ProjectSection(SolutionItems) = preProject
-		docker-compose.yml = docker-compose.yml
-		jaeger-ui.json = Configs\jaeger-ui.json
-		prometheus.yml = Configs\prometheus.yml
-		datasource.yml = Configs\datasource.yml
-		grafana.ini = Configs\grafana.ini
-		otel-collector-config.yml = Configs\otel-collector-config.yml
-		README.md = README.md
-		LICENSE = LICENSE
-		Configs\loki.yml = Configs\loki.yml
-		Configs\logs-dashboard.json = Configs\logs-dashboard.json
-		Configs\dotnet-otel-dashboard.json = Configs\dotnet-otel-dashboard.json
-		Configs\dashboard.yml = Configs\dashboard.yml
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleDotNetOTEL.BusinessService", "SampleDotNetOTEL.BusinessService\SampleDotNetOTEL.BusinessService.csproj", "{9D696FF2-BA89-4B1A-9AF0-C96DC8E2C3DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,5 +21,8 @@ Global
 		{9D696FF2-BA89-4B1A-9AF0-C96DC8E2C3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D696FF2-BA89-4B1A-9AF0-C96DC8E2C3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D696FF2-BA89-4B1A-9AF0-C96DC8E2C3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

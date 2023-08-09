@@ -59,8 +59,7 @@ builder.Services.AddOpenTelemetry()
         .AddHttpClientInstrumentation()
         .AddRuntimeInstrumentation()
         .AddProcessInstrumentation()
-        .AddPrometheusExporter())
-    .StartWithHost();
+        .AddPrometheusExporter());
 
 var app = builder.Build();
 
